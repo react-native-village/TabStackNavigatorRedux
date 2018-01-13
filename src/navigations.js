@@ -38,11 +38,12 @@ const App = TabNavigator(
   },
   {
     initialRouteName: 'Screen',
+    tabBarPosition: 'bottom',
     tabBarOptions: {
       showIcon: true,
       showLabel: true,
       activeTintColor: 'black',
-      inactiveTintConor: 'gray',
+      inactiveTintColor: 'gray',
       labelStyle: {
         fontFamily: 'AppleSDGothicNeo-Light',
         fontSize: 11,
